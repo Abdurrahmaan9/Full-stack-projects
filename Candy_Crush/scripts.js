@@ -6,16 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let score = 0
     score_display.innerHTML = score
 
-
-    // const candy_colors = [
-    //     'red',
-    //     'blue',
-    //     'green',
-    //     'yellow',
-    //     'orange',
-    //     'purple'
-    // ]
-
     const candy_colors = [
         'url(images/red-candy.png)',
         'url(images/yellow-candy.png)',

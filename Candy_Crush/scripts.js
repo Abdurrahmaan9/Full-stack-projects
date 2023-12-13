@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function create_board() {
         for (let i = 0; i < width*width; i++) {
             const div = document.createElement('div');
+            div.setAttribute('draggable', true)
             let random_color = Math.floor(Math.random() * candy_colors.length)
             div.style.backgroundColor = candy_colors[random_color]
             grid.appendChild(div);

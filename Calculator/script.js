@@ -124,3 +124,5 @@ class Calculator {
     calculator.delete()
     calculator.updateDisplay()
   })
+
+  // TODO handle events where users try to / 0 by 0
